@@ -1,6 +1,6 @@
 # Use the official Python image.
 # https://hub.docker.com/_/python
-FROM python:3.8.4-alpine3.12
+FROM python:3.8.3-alpine3.12
 
 ARG CLOUD_SDK_VERSION=300.0.0
 ENV CLOUD_SDK_VERSION=$CLOUD_SDK_VERSION
