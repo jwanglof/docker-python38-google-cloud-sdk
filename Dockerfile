@@ -22,4 +22,4 @@ RUN set -ex && \
 
 VOLUME ["/root/.config"]
 
-CMD ["bash"]
+CMD ["/bin/sh"]
